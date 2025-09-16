@@ -31,7 +31,7 @@ pip install qrcode pillow
 
 ## Usage
 
-1. Prepare a CSV file (`links.csv`) with columns `label` and `url`:
+1. Prepare a CSV file (`links.csv`) with columns `label` and `url` and place it into the `src` directory inside the project root:
 
 ```csv
 label,url
@@ -39,7 +39,7 @@ LABEL001,https://example.com/page1
 LABEL002,https://example.com/page2
 ```
 
-2. Place your logo as `logo.png` in the project directory.
+2. Place your logo as `logo.png` into the same `src` directory inside the project root.
 
 3. Run the script:
 
